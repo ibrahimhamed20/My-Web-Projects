@@ -6,3 +6,4 @@ This repository display the projects and code snippets i finished when i work or
 3. Fresh : RTL Website Design for a client from egypt to facilitate his business by e-commerce way. designed like E-shop website but with different way.
 4. Digital Software : company landing page website designed by html, css3, jQuery and plugins like mixitup, bxslider, and nicescroll...
 5. Flip Card : design by html, css3 to apply what i learn in css3 lessons.
+6. Personal Site : simple Page designed with html and w3.css file from w3schools.
