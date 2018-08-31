@@ -1,0 +1,56 @@
+==> users data (add - delete - update - display - block)
+user id
+name
+username
+password
+user email
+user phone
+-----------------
+==> blog posts (delete - add - update - display)
+post id
+post title
+post brief
+post image
+post content
+post date
+post writer
+post about
+-----------------
+==> order tables (request{add} - cancel{delete} - change order{update} - >>>)
+order id
+name
+email
+seats number
+date{history}
+time
+-----------------
+==> food list (add - delete - update - display - )
+id
+type
+title
+body
+size (S-M-L)
+price
+----------------
+==> Messages
+id
+name
+email
+service type
+message
+----------------
+==> main_settings
+site_name
+site_url
+site_email
+site_desc
+site_facebook
+site_youtube
+site_twitter
+---------------
+==> workTime
+id
+day
+open time
+cose time
+---------------

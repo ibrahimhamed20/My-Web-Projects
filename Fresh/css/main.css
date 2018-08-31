@@ -1,0 +1,396 @@
+@charset "UTF-8";
+/* start global styles */
+@import url('https://fonts.googleapis.com/css?family=El+Messiri');
+*{
+    font-family: 'El Messiri', sans-serif;
+}
+
+body {
+    color: #8cc747;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/***************Header*********************/
+
+.main_header {
+    border-top: 3px solid green;
+}
+
+.first_header .times {
+    float: left;
+    padding: 16px;
+}
+
+.first_header .times .description {
+    width: 125px !important;
+    display: inline-block;
+    margin-left: 5px;
+    text-align: left;
+    line-height: 1.1;
+    font-weight: bold;
+}
+
+.first_header .times .phone {
+    font-size: 30px;
+    font-weight: bold;
+    border-left: 1px solid #ddd;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+.first_header .times .phone span {
+    color: #019e91;
+    font-size: 38px;
+    position: relative;
+    top: 2px;
+}
+
+.first_header .sign_in {
+    color: dimgray;
+    float: right;
+    width: 50%;
+    text-align: right;
+    padding: 32px 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.first_header .sign_in a {
+    color: #87C145;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 5px;
+    border: 2px solid #87C145;
+    border-radius: 5px;
+    transition: all 1s ease-in-out;
+}
+
+.first_header .sign_in a:hover {
+    color: white;
+    background-color: green;
+    border: 2px solid darkgreen;
+    transition: all 1s ease-in-out;
+}
+
+/*************Navbar************/
+
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+    background-color: #FFF;
+    padding: 5px 0;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    z-index: 5
+}
+
+.navbar .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-default {
+    background: -webkit-linear-gradient(#83BA42, #8CC747);
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-size: 20px;
+}
+
+.navbar > .container .navbar-brand {
+    color: darkgreen;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    padding: 20px 12px;
+    font-size: 1.5em;
+}
+.navbar > .container .navbar-brand span {
+    color: #019E91;
+}
+
+
+.navbar-default .navbar-nav > .li > a:hover,
+.navbar-default .navbar-nav > .li > a:focus {
+    transition: all .5s ease-in-out;
+    background-color: #80DF00;
+    border-radius: 10px;
+}
+
+/***************Search button*****************/
+
+/****************Shopping cart*****************/
+
+.carts_tab {
+    margin: 0;
+    text-align: center;
+}
+
+.carts_tab .data {
+    float: right;
+    width: 110px;
+    text-align: left;
+}
+
+.carts_tab .data h3 {
+    font-size: 28px;
+    color: darkgreen;
+    margin: 0px;
+}
+.carts_tab .data span{
+    color: #019e91;
+    font-weight: bold;
+}
+
+.carts_tab .img {
+    float: right;
+    margin-right: 5px;
+    width: 60px;
+}
+
+.carts_tab .img .fa {
+    font-size: 30px;
+    color: darkgreen;
+}
+
+/********************************/
+/* To mantain the navbar at the top once it is affixed */
+.affix {
+    top: 0;
+    width: 100%;
+  }
+
+/* Padding for a smoth affix */
+.affix + .container-fluid {
+  padding-top: 72px;
+}
+/* Dropdown Menu */
+
+.dropdown-menu {
+    background: #87C044;
+    border-top: 3px solid darkgreen;
+    border-bottom: 3px solid darkgreen;
+    min-width: 250px;
+    right: 0;
+    left: auto;
+}
+
+.dropdown-menu > li > a {
+    color: #fff;
+    padding:15px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    -webkit-transition: padding 0.5s ease;
+    -moz-transition: padding 0.5s ease;
+    -o-transition: padding 0.5s ease;
+    transition: padding 0.5s ease;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background: darkgreen;
+    color: #fff;
+    padding-right: 30px;
+}
+
+.dropdown-menu .divider {
+    background-color: #3498db;
+}
+/***********************Slider****************************/
+/* Carousel base class */
+.carousel-caption{
+	background:rgba(3,3,3,0.1);
+	border-radius:10px;
+	padding-right:20px;
+	padding-left:20px;
+	color: black;
+    z-index: 10;
+    position: absolute;
+    top: 150px;
+    bottom:150px;
+    line-height: 4 
+}
+.carousel-caption h1{
+	font-weight:bold;
+    color: #fff;
+}
+
+.carousel-indicators{
+	bottom:0;
+    z-index: 4
+}
+
+.carousel-indicators li{
+	height:15px;
+	width:15px;
+	border: 1px solid green;
+}
+
+.carousel-indicators .active {
+	height:17px;
+	width:17px;
+	background-color:darkgreen;
+}
+/* Declare heights because of positioning of img element */
+.carousel .item {
+    height: 500px;
+    background-color: #777;
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 100%;
+}
+/***********************Products************************/
+.products .dept_title h2 {
+    font-size: 32px;
+    color: rgb(237, 28, 38);
+    color: #3489bd;
+    margin: 25px 0px;
+    border: 2px solid #3489db;
+    width: 120px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+.products .dept_title h3 {
+    text-align: left !important;
+    margin: 25px 0px;
+}
+.products .dept_title h3 a {
+    font-size: 26px;
+    color: rgb(180, 180, 180);
+    cursor: pointer;
+    text-decoration: none;
+}
+.thumbnail{
+    min-height: 350px;
+}
+.thumbnail:hover{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    transition: all .5s ease-in-out;
+}
+.thumbnail a img{
+    height: 200px
+}
+.thumbnail .caption h4{
+    font-weight: bold
+}
+.thumbnail .caption h3{
+    color: #8EC84B;
+}
+.thumbnail .caption p a{
+    font-weight: bolder;
+    font-size: 18px;    
+}
+.thumbnail .caption p span{
+    width: 25px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.thumbnail .caption .Quantity{
+    background-color: #8cc747;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    border: 2px solid #335335;
+    color: #fff;
+}
+.breadcrumb{
+    text-align: right;
+    font-size: 24px;
+    margin-top: 25px;
+}
+/*********************Footer************************/
+/*************************************/
+/* Start Footer */
+footer{
+    background-color: #88C144;
+    color: #6c6c6c;
+    padding: 40px 0 0 0;
+    overflow: hidden
+}
+footer .col h2{
+    color: #fff;
+    font-size: 18px
+}
+footer .col p{
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: #f6f6f6;
+}
+footer .col i {
+    display: inline-block;
+    color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    width: 40px;
+    padding: 10px;
+    transition: all 1s ease-in-out;
+}
+footer .col i.fa-google-plus:hover{
+    background-color: red;
+    color: #fff;
+}
+footer .col i.fa-facebook:hover{
+    color: #fff;
+    background-color: #3489db;
+}
+footer .depts h3{
+    color: white;
+}
+footer .depts p a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+footer .depts p a:hover{
+    color: #3489db;
+    transition: all 1s ease;
+}
+footer .tags span {
+    display: inline-block;
+    color: #f1f1f1;
+    border: 1px solid #fff;
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+footer .copyright{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    border-top: 1px solid green;
+    text-align: center;
+    color: white
+}
+/* End Footer */
