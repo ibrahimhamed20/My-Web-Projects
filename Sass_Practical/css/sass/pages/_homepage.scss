@@ -1,0 +1,139 @@
+/* Start Slider */
+
+.slider {
+  blockquote{
+    font: {
+      size: 20px;
+      style: italic;
+      weight: bold;
+    }
+    line-height: 1.7;
+    text-align: center;
+    color: #5e5e5e;
+    width: 80%;
+    margin: 30px auto;
+    letter-spacing: 2px;
+  }
+  img {
+    max-width: 100%;
+  }
+  .bullets {
+    text-align: center;
+    li {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: $greyColor;
+      border-radius: 50%;
+      cursor: pointer;
+      &.active,
+      &:hover {
+        background-color: #fff;
+        border: 2px solid #333;
+      }
+    }
+  }
+}
+
+/* End Slider */
+
+/* Start Services */
+
+.services {
+  .services-box {
+    @media #{$minMedium} {
+      float: $float-left;
+      width: (100% / 3);
+      &:not(:last-of-type) {
+        padding-right: 20px;
+      }
+    }
+    @media #{$maxMobile} {
+      i {
+        display: block;
+        margin-bottom: 15px;
+      }
+    }
+    .service-title {
+      color: #777;
+      i {
+        font-size: 35px;
+        position: relative;
+        top: 4px;
+      }
+    }
+    .service-desc {
+      color: $greyColor;
+      text-align: justify;
+      line-height: 1.5;
+    }
+    .link {
+      color: $redColor;
+      text-decoration: none;
+    }
+  }
+}
+
+/* End Services */
+
+/* Start Players */
+
+.players {
+  .player-box {
+    padding-right: 20px;
+    @media #{$minSmall} {
+      float: $float-left;
+      width: (100% / 2);
+      margin-bottom: 40px;
+    }
+    @media #{$minMedium} {
+      width: (100% / 3);
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    @media #{$minMedium} {
+      width: (100% / 5);
+    }
+    @media #{$maxMobile} {
+      margin-bottom: 40px;
+    }
+    .player-img {
+      width: 100%;
+    }
+    .player-title {
+      color: #777;
+      font-weight: normal;
+      span {
+        font-weight: bold;
+      }
+    }
+    .player-desc {
+      color: $greyColor;
+      text-align: justify;
+      line-height: 1.5;
+    }
+    .link {
+      color: $redColor;
+      text-decoration: none;
+    }
+  }
+}
+
+/* End Players */
+
+/* Start Lorem Ipsum */
+
+.lorem-ipsum {
+  .lorem-box {
+    float: $float-left;
+    width: (94% / 3);
+    &:not(:last-of-type) {
+      margin-right: 3%;
+    }
+    .lorem-img {
+      max-width: 100%;
+    }
+  }
+}
+
+/* End Lorem Ipsum */

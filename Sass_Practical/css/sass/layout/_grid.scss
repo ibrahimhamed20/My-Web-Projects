@@ -1,0 +1,35 @@
+* {
+  @include prefixer(box-sizing, border-box, webkit moz);
+}
+
+.container {
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+
+  // Medium devices (tablets, 768px and up)
+  @media #{$minSmall} {
+    width: 750px;
+  }
+
+  // Large devices (desktops, 992px and up)
+  @media #{$minMedium} {
+    width: 970px;
+  }
+
+  // Extra large devices (large desktops, 1200px and up)
+  @media #{$minLarge} {
+    width: 1170px;
+  }
+}
+
+.clearfix {
+  clear: both;
+}
+
+.text-center-xs {
+  @media #{$maxMobile} {
+    text-align: center;
+  }
+}
