@@ -7,3 +7,5 @@ This repository display the projects and code snippets i finished when i work or
 4. Digital Software : company landing page website designed by html, css3, jQuery and plugins like mixitup, bxslider, and nicescroll...
 5. Flip Card : design by html, css3 to apply what i learn in css3 lessons.
 6. Personal Site : simple Page designed with html and w3.css file from w3schools.
+7. Sass_Practical : simple responsive website based on SASS with SCSS Syntax and using media query. Designed by HTML, CSS3, jQuery.
+I did it as an application on what I learned in the SASS course.
