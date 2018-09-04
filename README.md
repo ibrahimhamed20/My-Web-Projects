@@ -9,3 +9,5 @@ This repository display the projects and code snippets i finished when i work or
 6. Personal Site : simple Page designed with html and w3.css file from w3schools.
 7. Sass_Practical : simple responsive website based on SASS with SCSS Syntax and using media query. Designed by HTML, CSS3, jQuery.
 I did it as an application on what I learned in the SASS course.
+8. Bootstrap 3 Template : Practice project that convert PSD file to Bootstrap template using html, css3, Bootstrap 3, and jQuery. 
+this template display my bootstarp skill to design a responsive website from scratch.
